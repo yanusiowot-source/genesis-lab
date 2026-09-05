@@ -1,5 +1,5 @@
 # Genesis Engine
 
-Public laboratory (compiled copy). Physics is not for sale. Source is not here.
+Public laboratory (compiled copy). Physics is not for sale.
 
 https://yanusiowot-source.github.io/genesis-lab/
