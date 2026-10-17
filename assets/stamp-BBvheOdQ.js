@@ -1,1 +1,0 @@
-import{p as e}from"./copy-B7q9_MD8.js";function t(n){if(typeof n==`string`)return n.replaceAll(`__V__`,e);if(Array.isArray(n))return n.map(e=>t(e));if(n&&typeof n==`object`){let e={};for(let[r,i]of Object.entries(n))e[r]=t(i);return e}return n}export{t as stamp};
