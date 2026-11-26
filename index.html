@@ -28,14 +28,14 @@
       as="style"
       href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=optional"
     />
-    <script type="module" crossorigin src="./assets/index-BjpadiDz.js"></script>
+    <script type="module" crossorigin src="./assets/index-BLN--sQF.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/rolldown-runtime-Dd_uD5pT.js">
     <link rel="modulepreload" crossorigin href="./assets/copy-BwZbtbcn.js">
     <link rel="modulepreload" crossorigin href="./assets/sky-DTtiv5Tj.js">
     <link rel="modulepreload" crossorigin href="./assets/lucide-CN7KG1VE.js">
     <link rel="modulepreload" crossorigin href="./assets/dist-hAqHDZkh.js">
     <link rel="modulepreload" crossorigin href="./assets/utils-DojpP95n.js">
-    <link rel="stylesheet" crossorigin href="./assets/index-CK8AUVmb.css">
+    <link rel="stylesheet" crossorigin href="./assets/index-Be9fkLaA.css">
   </head>
   <body style="margin:0;background:#09061a;color:#f4efe6">
     <div id="boot" role="status">
@@ -47,6 +47,7 @@
         var ru = /(?:^|[?&])ru(?:[=&]|$)/.test(location.search) || /(?:^|[?&])lang=ru(?:&|$)/.test(location.search);
         var line = document.getElementById("boot-line");
         if (ru && line) line.textContent = "Небо ещё собирается";
+        if (ru) document.documentElement.dataset.show = "1";
         setTimeout(function () {
           if (document.documentElement.dataset.boot === "done") return;
           if (!line) return;
